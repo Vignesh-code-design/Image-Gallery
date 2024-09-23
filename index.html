@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+</head>
+
+<body>
+    <div class="container"><br>
+        <header>
+           
+            <h1>Nature Photo Gallery</h1>
+        </header>
+        <div class="pictures">
+            <div class="image"><img src="/Images/img-2.avif" alt="error" onclick="show(0)"></div>
+            <div class="image"><img src="/Images/img-3.avif" alt="error" onclick="show(1)"></div>
+            <div class="image"><img src="/Images/img-4.avif" alt="error" onclick="show(2)"></div>
+            <div class="image"><img src="/Images/img-5.avif" alt="error" onclick="show(3)"></div>
+            <div class="image"><img src="/Images/img-6.avif" alt="error" onclick="show(4)"></div>
+            <div class="image"><img src="/Images/img-1.avif" alt="error" onclick="show(5)"></div>
+            <div class="image"><img src="/Images/img-7.avif" alt="error" onclick="show(6)"></div>
+            <div class="image"><img src="/Images/img-8.avif" alt="error" onclick="show(7)"></div>
+            <div class="image"><img src="/Images/img-9.avif" alt="error" onclick="show(8)"></div>
+            <div class="image"><img src="/Images/img-10.jpg" alt="error" onclick="show(8)"></div>
+            <div class="image"><img src="/Images/img-11.jpg" alt="error" onclick="show(8)"></div>
+            <div class="image"><img src="/Images/img-12.avif" alt="error" onclick="show(8)"></div>
+            <div class="image"><img src="/Images/img-13.jpg" alt="error" onclick="show(8)"></div>
+            <div class="image"><img src="/Images/img-14.jpg" alt="error" onclick="show(8)"></div>
+            <div class="image"><img src="/Images/img-15.jpg" alt="error" onclick="show(8)"></div>
+        </div>
+        <div class="popup">
+            <span>&times;</span>
+            <div class="image-box">
+            <div class="slide prev">
+                <i class="fas fa-angle-left" onclick="prev()"></i>
+            </div>
+            <div class="slide next">
+                <i class="fas fa-angle-right" onclick="next()">
+                </i>
+            </div>
+            <div class="pagecounter">
+
+            </div>
+            <img class="popupImage" src="" alt="" >
+        </div>
+        </div>
+    </div>
+    <script src="index.js">
+    </script>
+</body>
+</html>
